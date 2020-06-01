@@ -1,0 +1,14 @@
+name: Create Touch File
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+  steps:
+    - name: Run pwd
+      run: pwd
+    - name: Run ls -al
+      run: ls -al
+    - name: Run touch
+      run: touch makefile.txt
+    - name: Run git state
+      run: git state
