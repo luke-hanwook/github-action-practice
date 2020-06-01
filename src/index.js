@@ -1,5 +1,5 @@
-function printHello() {
-  console.log("hello world");
+function printHello(name) {
+  console.log(name + "hello world");
 }
 
 printHello();
