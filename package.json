@@ -1,0 +1,20 @@
+{
+  "name": "github-action-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luke-hanwook/github-action-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luke-hanwook/github-action-practice/issues"
+  },
+  "homepage": "https://github.com/luke-hanwook/github-action-practice#readme"
+}
