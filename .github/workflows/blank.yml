@@ -13,6 +13,19 @@ jobs:
       - name: Run ls -al
         run: ls -al
 
+  test:
+    runs-on: ubuntu-latest
+    name: 테스트
+    steps:
+      - name: Run ls -al
+        run: ls -al
+
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Run ls -al
+        run: ls -al
+
   custom_action_test_job:
     runs-on: ubuntu-latest
     name: say hello world
