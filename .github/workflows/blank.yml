@@ -32,6 +32,25 @@ jobs:
       - name: Run script
         run: npm test
 
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "14"
+      - run: node -v
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+      - run: node -v
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+          check-latest: true
+      - run: node -v
+
   custom_action_test_job:
     runs-on: ubuntu-latest
     name: say hello world
