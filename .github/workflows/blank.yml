@@ -26,6 +26,12 @@ jobs:
       - name: Run ls -al
         run: ls -al
 
+      - name: Run node -v
+        run: node -v
+
+      - name: Run script
+        run: npm test
+
   custom_action_test_job:
     runs-on: ubuntu-latest
     name: say hello world
