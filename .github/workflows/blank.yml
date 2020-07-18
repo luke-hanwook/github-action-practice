@@ -12,3 +12,12 @@ jobs:
 
       - name: Run ls -al
         run: ls -al
+jobs:
+  runs-on: ubuntu-latest
+  name: say hello world
+  steps:
+    - name: Run Custom Actions
+      id: hello
+      uses: luke-hanwook/hello-world-docker-action@master
+      with:
+        who-to-greet: 'Mona the Octocat'
